@@ -78,23 +78,53 @@
     <main class="">
 
 
+
       <!-- header start -->
-      <header class="header -light -sticky-light js-header">
+      <header class="header -light -sticky-light js-header-light -classic js-header">
         <!-- header__bar start -->
         <div class="header__bar">
-          <div class="header__logo js-header-logo">
-            <a data-barba href="home-1.html">
-              <img class="header__logo__light js-lazy" data-srcset="img/logo/yilu-white.png 1x" data-src="img/logo/yilu-white.png" alt="Logo">
-            </a>
-            <a data-barba href="home-1.html">
-              <img class="header__logo__dark js-lazy" data-srcset="img/logo/yilu.png 1.5x" data-src="img/logo/yilu.png" alt="Logo">
-            </a>
+          <div class="overflow-hidden">
+            <div class="header__logo js-header-logo">
+              <a data-barba href="home-1.html">
+                <img class="header__logo__light" src="img/logo/yilu-white.png" alt="logo">
+              </a>
+              <a data-barba href="home-1.html">
+                <img class="header__logo__dark" src="img/logo/yilu.svg" alt="logo">
+              </a>
+            </div>
           </div>
 
-          <div class="header__menu js-header-menu">
-            <button type="button" class="nav-button-open js-nav-open">
-              <i class="icon" data-feather="menu"></i>
-            </button>
+          <div class="navClassic-wrap js-header-menu-classic">
+            <ul class="navClassic-list js-navClassic-list">
+              <li>
+                <a data-barba href="#reason-behind">
+                  The reason behind
+                </a>
+              </li>
+              <li>
+                <a data-barba href="#summary-link">
+                  Summary
+                </a>
+              </li>
+              <li>
+                <a data-barba href="#service-link">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a data-barba href="#contact-link">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="header__menu__wrap overflow-hidden">
+            <div class="header__menu js-header-menu">
+              <button type="button" class="nav-button-open js-nav-open">
+                <i class="icon" data-feather="menu"></i>
+              </button>
+            </div>
           </div>
         </div>
         <!-- header__bar end -->
@@ -121,177 +151,24 @@
                   <div class="navList__wrap">
                     <ul class="navList js-navList">
                       <li>
-                        <a data-barba href="home-1-classic.html">
-                          Classic Menu
+                        <a data-barba href="#reason-behind">
+                          The reason behind
                         </a>
                       </li>
-
-                      <li class="menu-item-has-children">
-                        <a>Main Pages</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="home-1.html">Main Slider</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-2.html">Main Dark</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-3.html">Simple Slider</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-4.html">Bold Light</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-5.html">Static Header Dark</a>
-                          </li>
-                          <li>
-                            <a data-barba href="home-6.html">Personal</a>
-                          </li>
-                          <li>
-                            <a data-barba href="projectSlider-1.html">Project Slider</a>
-                          </li>
-                        </ul>
+                      <li>
+                        <a data-barba href="#summary-link">
+                          Summary
+                        </a>
                       </li>
-
-                      <li class="menu-item-has-children">
-                        <a>Inner Pages</a>
-
-                        <ul class="subnav-list">
-                          <li class="menu-item-has-children">
-                            <a>About</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="about-1.html">About 1</a>
-                              </li>
-                              <li>
-                                <a data-barba href="about-2.html">About 2</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="menu-item-has-children">
-                            <a>Services</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="services-1.html">Services 1</a>
-                              </li>
-                              <li>
-                                <a data-barba href="services-2.html">Services 2</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="menu-item-has-children">
-                            <a>404</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="404-light.html">404 Light</a>
-                              </li>
-                              <li>
-                                <a data-barba href="404-dark.html">404 Dark</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li class="menu-item-has-children">
-                            <a>Contact</a>
-
-                            <ul class="subnav-list">
-                              <li>
-                                <a data-barba href="contact-1.html">Contact 1</a>
-                              </li>
-                              <li>
-                                <a data-barba href="contact-2.html">Contact 2</a>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li>
-                            <a data-barba href="team.html">Team</a>
-                          </li>
-                          <li>
-                            <a data-barba href="pricing.html">Pricing Plans</a>
-                          </li>
-                          <li>
-                            <a data-barba href="clients.html">Clients</a>
-                          </li>
-                        </ul>
+                      <li>
+                        <a data-barba href="#service-link">
+                          Services
+                        </a>
                       </li>
-
-                      <li class="menu-item-has-children">
-                        <a>Portfolio</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="vertical-projects.html">Vertical Projects</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-simple-2-col.html">Simple 2 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-masonry-2-col.html">Masonry 2 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-masonry-3-col.html">Masonry 3 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-masonry-4-col.html">Masonry 4 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-fancy-2-col.html">Fancy 2 Columns</a>
-                          </li>
-                          <li>
-                            <a data-barba href="grid-fancy-3-col.html">Fancy 3 Columns</a>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li class="menu-item-has-children">
-                        <a>Works</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="portfolio-single-1.html">Project 1</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-2.html">Project 2</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-3.html">Project 3</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-4.html">Project 4</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-5.html">Project 5</a>
-                          </li>
-                          <li>
-                            <a data-barba href="portfolio-single-6.html">Project 6</a>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li class="menu-item-has-children">
-                        <a>Blog</a>
-
-                        <ul class="subnav-list">
-                          <li>
-                            <a data-barba href="blog-1.html">Blog List</a>
-                          </li>
-                          <li>
-                            <a data-barba href="blog-2.html">Blog 2 cols</a>
-                          </li>
-                          <li>
-                            <a data-barba href="blog-fancy-3-col.html">Blog Fancy 3 cols</a>
-                          </li>
-                          <li>
-                            <a data-barba href="blog-article.html">Blog List Single</a>
-                          </li>
-                        </ul>
+                      <li>
+                        <a data-barba href="#contact-link">
+                          Contact Us
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -306,11 +183,11 @@
 
                       <div class="nav__info__content text-lg text-white mt-16">
                         <p>
-                          Studio Stukram 1910 Gateway Road, Portland, Oregon 97230
+                          YiLu <br> c/o Jonathan Kuhl <br> Kastanienallee 12 <br> 10435 Berlin, Germany
                         </p>
                       </div>
                     </div>
-
+                    <!--
                     <div class="nav__info__item js-navInfo-item">
                       <h5 class="text-sm tracking-none fw-500">
                         Socials
@@ -323,15 +200,14 @@
                         <a href="#">Twitter</a>
                       </div>
                     </div>
-
+                    -->
                     <div class="nav__info__item js-navInfo-item">
                       <h5 class="text-sm tracking-none fw-500">
                         Contact Us
                       </h5>
 
                       <div class="nav__info__content text-lg text-white mt-16">
-                        <a href="#">hello@stukram.com</a>
-                        <a href="#">+1 202 555 0171</a>
+                        <a href="#">jonathan.kuhl@code.berlin</a>
                       </div>
                     </div>
                   </div>
@@ -370,7 +246,7 @@
                 </div>
 
                 <div class="masthead__button overflow-hidden mt-48 md:mt-32">
-                  <a href="#" class="button -md -black text-white js-button">
+                  <a href="#contact-link" class="button -md -black text-white js-button">
                     get in touch
                   </a>
                 </div>
@@ -402,7 +278,7 @@
       <!-- section end -->
 
       <!-- section start -->
-      <section class="layout-pt-xl layout-pb-lg">
+      <section id="reason-behind"class="layout-pt-xl layout-pb-lg">
         <!-- container start -->
         <div data-anim-wrap class="container">
           <!-- row start -->
@@ -428,7 +304,7 @@
       <!-- section end -->
 
       <!-- section start -->
-      <section class="layout-pt-md layout-pb-md">
+      <section id="summary-link" class="layout-pt-md layout-pb-md">
         <!-- container start -->
         <div class="container-fluid px-0">
           <!-- row start -->
@@ -475,7 +351,7 @@
       <!-- section end -->
 
       <!-- section start -->
-      <section class="layout-pt-md layout-pb-md">
+      <section id="service-link" class="layout-pt-md layout-pb-md">
         <!-- container start -->
         <div class="container">
           <!-- row start -->
@@ -786,7 +662,7 @@
       <!-- section end -->
 
       <!-- section start -->
-      <section class="layout-pt-lg layout-pb-lg">
+      <section id="contact-link" class="layout-pt-lg layout-pb-lg">
         <!-- container start -->
         <div class="container">
           <!-- row start -->
@@ -925,16 +801,15 @@
 
               <div class="col-lg-3 col-sm-6">
                 <h4 class="text-xl fw-500 text-white">
-                  Studio
+                  Address
                 </h4>
 
                 <div class="footer__content text-base text-light mt-16 sm:mt-12">
-                  <p>Studio Stukram 1910 Gateway Road, Portland, Oregon 97230</p>
-                  <p class="mt-8">hello@stukram.com</p>
-                  <p class="mt-8">+1 202 555 0171</p>
+                  <p>YiLu <br> c/o Jonathan Kuhl <br> Kastanienallee 12 <br> 10435 Berlin, Germany</p>
+                  <p class="mt-8">jonathan.kuhl@code.berlin</p>
                 </div>
               </div>
-
+              <!--
               <div class="col-lg-auto col-sm-4">
                 <h4 class="text-xl fw-500 text-white">
                   Links
@@ -947,10 +822,10 @@
                   <div><a data-barba href="contact-1.html" class="button -underline mt-4">Contacts</a></div>
                 </div>
               </div>
-
+              -->
               <div class="col-lg-auto col-auto">
                 <h4 class="text-xl fw-500 text-white">
-                  Follow us
+                  Soon on
                 </h4>
 
                 <div class="social -bordered mt-16 sm:mt-12">
@@ -979,7 +854,7 @@
               <div class="col">
                 <div class="footer__copyright">
                   <p class="text-light">
-                    @ 2020, Stukram. Made with passion by Krellion.
+                    @ 2020, YiLu. Made with passion to build a bridge.
                   </p>
                 </div>
               </div>
