@@ -11539,6 +11539,9 @@ html.full-page-slider body {
 .text-left {
   text-align: left;
 }
+.text-full {
+    text-align: justify;
+}
 
 @media (max-width: 1229px) {
   .lg\:text-center {
