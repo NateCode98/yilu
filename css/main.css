@@ -12202,6 +12202,10 @@ html.full-page-slider body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+    .h-lg {
+        height: 200px;
+        width: 300px
+    }
 }
 
 @media (max-width: 767px) {
